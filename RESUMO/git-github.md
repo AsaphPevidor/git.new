@@ -49,7 +49,8 @@ criar commit
 	git config --global --uset user.name		apaga o nome cadastrado
 	git remote add origin 'url'				mandar para github e nomear a url de "origin"					
 	git remote -v							listar o que esta no repositorio remoto
-	git push origin maste					mandar para github
+	git push origin master					mandar para github
+	git remote remove origin				vai tirar o link associado ao origin
 
 
 **SHA1** - algoritmo de segurança (criptografia). encriptaçao identifica o arquivo com uma chave especifica
@@ -127,6 +128,6 @@ ideal é ter o mesmo email e nickname do git, facilita na manipulacao dos progra
 		copia url (ex: https://github.com/AsaphPevidor/livro.receitas.git)
 		abre o git bash na pasta que possui arquivos e pastas com arquivos que deseja mandar
 		git remote add origin https://github.com/AsaphPevidor/livro.receitas.git
-			origin é uma variavel atrelada a url, para nao escrever a url sempre que quiser exportar os arquivos para github
-		git remote -v lista remotos cadastrados 
+				origin é uma variavel atrelada a url, para nao escrever a url sempre que quiser 			exportar os arquivos para github
+		git remote -v 				lista remotos cadastrados 
 
