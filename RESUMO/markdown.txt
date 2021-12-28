@@ -1,0 +1,20 @@
+MARKDOWN
+	TYPORA, GITHUB... 
+
+Todos os comandos estao em ajuda --> markdown reference
+
+Comandos
+
+# H1  		maior titulo, quanto mais # menor as letras
+
+## H2
+
+**....**   	negrito
+
+_...._		italico
+
+:....		chama emoji pelo nome
+
+  - 		"espaco - espaco"	lista começando com ponto
+
+[.....](url)	link
